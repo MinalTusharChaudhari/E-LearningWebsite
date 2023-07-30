@@ -1,0 +1,163 @@
+
+/* .navbar{
+    background-color: blueviolet;
+} */
+
+.custom-nav .custom-nav-item a{
+    color: rgb(255, 255, 255) !important;    
+}
+
+.custom-nav .custom-nav-item a:hover{
+    color: yellow;
+    font-weight: 900;
+}
+
+body{
+    background-color: #875aae !important;
+}
+
+.container-fluid{
+    height: 80vh;
+}
+
+
+
+
+.txt-banner{
+    height: 3.3rem;
+}
+
+.img-parent .laptop{
+    margin-left: 50rem;
+    margin-top: 5rem;
+}
+
+.img-parent .html{
+    height: 60px;
+    width: 60px;
+    margin-left: 49rem;
+    margin-top: -30rem;
+}
+
+.img-parent .css{
+    height: 60px;
+    width: 60px;
+    margin-left: 55rem;
+    margin-top: -59rem;
+}
+
+.img-parent .javascript{
+    height: 60px;
+    width: 60px;
+    margin-left: 79rem;
+    margin-top: -62.1rem;
+}
+
+.img-parent .bootstrap{
+    height: 60px;
+    width: 60px;
+    margin-left: 82rem;
+    margin-top: -37rem;
+}
+
+.home-content{
+    position:absolute;
+    z-index: 2;
+    top: 31%;
+    left: 10%;
+    /* text-align: center; */
+}
+
+.home-content h1{
+    color: rgb(78, 4, 78);
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.home-content h1 span{
+    color: rgb(137, 34, 68);
+}
+
+
+.home-content h5{
+    color: pink;
+    font-weight: 900;
+}
+
+/* .card-deck{
+    padding: 8rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+
+.card{
+    margin-top: 2.5rem;
+}
+
+.text-center .btn{
+    margin-top: -11rem;
+}
+
+
+
+.container .row .col-md-8 form input::placeholder {
+    color: rgb(0, 0, 0); /
+}
+
+.container .row .col-md-8 form textarea::placeholder {
+    color: rgb(0, 0, 0); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width:700px) {
+    .my-content, .txt-banner{
+        display: none;
+    }
+
+    .home-content{
+        top: 12%;
+        left: 60%;
+    }
+
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #59385b;
+    }
+
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+}
+
+
+
+
+
+
+
+
